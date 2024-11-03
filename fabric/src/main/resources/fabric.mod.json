@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "chinajapanarmory",
+  "version": "1.0",
+  "name": "Epic Knights: China and Japan",
+  "description": "Adds medieval stuff from China and Japan to the game",
+  "authors": [
+    "Magistu", "StarFan", "Phantom", "cantaloupewill", "SuperSus890", "SteveMe", "Desperate_bork", "minucius", "theblackchimera", "Santusio", "Reymecos", "Skydog"
+  ],
+  "contributors": [
+    
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/epic-knights-addon",
+    "sources": "https://github.com/Magistu/Knightly-Armory-Addon",
+    "discord": "https://discord.gg/H9CVcXEmYe"
+  },
+  "license": "MIT",
+  "icon": "assets/chinajapanarmory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chinajapanarmory.fabric.EpicKnightsAddonFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.0",
+    "magistuarmory": ">=9.16"
+  }
+}

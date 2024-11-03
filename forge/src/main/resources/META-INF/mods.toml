@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/Magistu/Epic-Knights-Addon/issues"
+displayURL="https://github.com/Magistu/Epic-Knights-Addon"
+license = "MIT"
+[[mods]]
+modId = "chinajapanarmory"
+version = "${version}"
+displayName = "Epic Knights: China and Japan"
+authors = ["Magistu", "StarFan", "Phantom", "cantaloupewill", "SuperSus890", "SteveMe", "Desperate_bork", "minucius", "theblackchimera", "Santusio", "Reymecos", "Skydog"]
+credits = [""]
+description = '''
+Adds medieval stuff from China and Japan to the game
+'''
+
+[[dependencies.chinajapanarmory]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.chinajapanarmory]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.chinajapanarmory]]
+modId = "magistuarmory"
+mandatory = true
+versionRange = "[8.6,)"
+ordering = "AFTER"
+side = "BOTH"
